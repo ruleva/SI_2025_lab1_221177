@@ -1,0 +1,27 @@
+13. git fetch origin
+14. git checkout 1-remove-a-task-by-name
+15.  notepad SI2025Lab1Main.java
+16.  git add.
+git commit -m "Implemented 'Remove task by name' functionality"
+17. git push origin 1-remove-a-task-by-name
+18.
+19. //7. git checkout 7-count-tasks-per-category
+ notepad SI2025Lab1Main.java
+ git add .
+git commit -m "Implemented 'Count tasks per category' functionality"
+ git push origin 7-count-tasks-per-category
+//8. git checkout 8-mark-a-task-as-completed-by-name
+notepad SI2025Lab1Main.java
+ git add .
+git commit -m "Implemented 'Mark a task as completed by name' functionality"
+ git push origin 8-mark-a-task-as-completed-by-name
+20. nema konflikti
+21. 
+22. git checkout master
+git pull
+ git merge 8-mark-a-task-as-completed-by-name
+nema konflikti
+23.  git push origin master
+24.  git log --oneline --graph --all > logs.txt
+
+	
